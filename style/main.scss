@@ -1,0 +1,218 @@
+@import './reset';
+
+.cOntainer {
+    width: 100%;
+
+    .header {
+        height: 100px;
+        background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        padding: 20px;
+        background-position: center;
+        height: 100vh;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.container1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 40px 0 0 0;
+    display: none;
+
+    .sample {
+        width: 650px;
+        background-color: white;
+        margin: 40px auto;
+        border-radius: 10px;
+        display: none;
+
+        .colorTitle {
+            display: flex;
+            justify-content: space-around;
+
+            .sampleTitle {
+                margin: 20px 0 0 0;
+            }
+
+            .uil-times {
+                font-size: 30px;
+                margin: 20px 0 0 0;
+            }
+        }
+
+        .colorTextWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 0 0 20px;
+
+            .colorText {
+                width: 70px;
+                height: 70px;
+                margin: 10px 10px 10px 0;
+                border-radius: 10px;
+            }
+
+        }
+
+
+        .item1 {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 0 0 20px;
+
+            .color {
+                width: 70px;
+                height: 70px;
+                margin: 10px 10px 10px 0;
+                border-radius: 10px;
+            }
+
+            .image {
+                width: 130px;
+                height: 100px;
+                margin: 20px 10px 10px 0;
+                border-radius: 5px;
+                background-position: center;
+                background-size: cover;
+            }
+
+        }
+
+        .fileUpload {
+            padding: 20px;
+            display: none;
+        }
+
+        .listUl {
+            display: block;
+        }
+    }
+
+    .colorTitle {
+        display: flex;
+        justify-content: space-between;
+
+        .sampleTitle {
+            margin: 20px 0 0 0;
+        }
+
+        .uil-times {
+            font-size: 30px;
+            margin: 10px 0 0 0;
+        }
+    }
+
+    .containerTable {
+        display: flex;
+        justify-content: center;
+
+        .wrapperTable {
+            padding: 0 0 0 45px;
+            width: 95%;
+        }
+
+    }
+
+
+
+
+    .singIn {
+        padding: 20px 0 0;
+        height: 400px;
+        display: none;
+
+        h3 {
+            text-align: center;
+        }
+
+        input[name=login] {
+            margin: 20px auto;
+            width: 90%;
+            height: 30px;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+    }
+
+    .singOut {
+        width: 300px;
+        height: 80px;
+        background-color: white;
+        margin: 0 auto;
+        border-radius: 10px;
+        display: none;
+
+        .singOutWrapper {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+
+
+    .imageBackgroundWrapper {
+        display: none;
+    }
+
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    display: none;
+
+    .header {
+        height: 100px;
+        background-color: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textarea {
+        height: 100%;
+        width: 100%;
+        resize: none;
+    }
+
+}

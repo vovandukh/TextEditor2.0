@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cOntainer {
+  width: 100%;
+}
+
+.cOntainer .header {
+  height: 100px;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cOntainer .content {
+  padding: 20px;
+  background-position: center;
+  height: 100vh;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.container1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.767);
+  padding: 40px 0 0 0;
+  display: none;
+}
+
+.container1 .sample {
+  width: 650px;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 10px;
+  display: none;
+}
+
+.container1 .sample .colorTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container1 .sample .colorTitle .sampleTitle {
+  margin: 20px 0 0 0;
+}
+
+.container1 .sample .colorTitle .uil-times {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+
+.container1 .sample .colorTextWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0 0 20px;
+}
+
+.container1 .sample .colorTextWrapper .colorText {
+  width: 70px;
+  height: 70px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+}
+
+.container1 .sample .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0 0 20px;
+}
+
+.container1 .sample .item1 .color {
+  width: 70px;
+  height: 70px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+}
+
+.container1 .sample .item1 .image {
+  width: 130px;
+  height: 100px;
+  margin: 20px 10px 10px 0;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+}
+
+.container1 .sample .fileUpload {
+  padding: 20px;
+  display: none;
+}
+
+.container1 .sample .listUl {
+  display: block;
+}
+
+.container1 .colorTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container1 .colorTitle .sampleTitle {
+  margin: 20px 0 0 0;
+}
+
+.container1 .colorTitle .uil-times {
+  font-size: 30px;
+  margin: 10px 0 0 0;
+}
+
+.container1 .containerTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container1 .containerTable .wrapperTable {
+  padding: 0 0 0 45px;
+  width: 95%;
+}
+
+.container1 .singIn {
+  padding: 20px 0 0;
+  height: 400px;
+  display: none;
+}
+
+.container1 .singIn h3 {
+  text-align: center;
+}
+
+.container1 .singIn input[name=login] {
+  margin: 20px auto;
+  width: 90%;
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.container1 .singOut {
+  width: 300px;
+  height: 80px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: none;
+}
+
+.container1 .singOut .singOutWrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container1 .imageBackgroundWrapper {
+  display: none;
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  display: none;
+}
+
+.container2 .header {
+  height: 100px;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container2 .textarea {
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+/*# sourceMappingURL=main.css.map */
